@@ -54,7 +54,7 @@
             <div id="forgotten" class="mb-3">
                 @if (Route::has('password.request'))
                 <a href="{{ route('password.request') }}">
-                    Forgotten password?
+                    {{ __('Forgotten password?') }}
                 </a>
                 @endif
 
@@ -62,7 +62,7 @@
 
             <div class="mb-3">
                 <x-jet-button id="loginButton" class="ml-4 btn btn-primary ms-auto">
-                    Log in
+                    {{ __('Log in') }}
                 </x-jet-button>
 
             </div>
@@ -70,13 +70,13 @@
             <div class="mb-3 form-check">
 
                 <x-jet-checkbox class="form-check-input" id="remember_me" name="remember" />
-                <label class="form-check-label" for="remember_me">Remember me</label>
+                <label class="form-check-label" for="remember_me">{{ __('Remember me') }}</label>
 
             </div>
 
             <div id="newAccount" class="mb-3">
-                <span id="noAccount">No account?</span>
-                <a href="{{ route('register') }}">Sign up</a>
+                <span id="noAccount">{{ __('No account?') }}</span>
+                <a href="{{ route('register') }}">{{ __('Sign up') }}</a>
             </div>
         </form>
 

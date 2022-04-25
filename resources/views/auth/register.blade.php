@@ -51,8 +51,8 @@
             </div>
 
             <div class="mb-3">
-                <x-jet-button id="registerButton" class="ml-4 btn btn-primary ms-auto">
-                    Register
+                <x-jet-button id="registerButton" class="ml-4 btn btn-primary ms-auto">  
+                    {{ __('Register') }}
                 </x-jet-button>
             </div>
 
