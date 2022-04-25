@@ -81,7 +81,8 @@ li {
 
 #loginButton,
 #registerButton,
-#forgetButton {
+#forgetButton,
+#resetButton {
     width: 100%;
 }
 

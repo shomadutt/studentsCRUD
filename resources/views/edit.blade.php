@@ -280,7 +280,7 @@
     </form>
 
     <script src="{{ mix('js/app.js') }}" defer></script>
-    <script src="{{'../../bootstrap-5.0.2-dist/css/bootstrap.min.js'}}"></script>
+    <script src="{{asset('bootstrap-5.0.2-dist/css/bootstrap.min.js')}}"></script>
 </body>
 
 </html>
